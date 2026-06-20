@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://your-frontend.vercel.app",
+      "https://workshop-webpage-b7e77bze6-rpap1987-gmailcoms-projects.vercel.app",
     ],
     methods: ["GET", "POST"],
   })
