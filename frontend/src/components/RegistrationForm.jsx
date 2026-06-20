@@ -18,7 +18,7 @@ const RegistrationForm = ({isOpen,onClose})=>{
         e.preventDefault();
         try{
         setLoading(true);
-        const response = await axios.post("https://YOUR-RENDER-BACKEND.onrender.com/api/enquiry",formData);
+        const response = await axios.post("https://workshop-webpage.onrender.com/api/enquiry",formData);
         alert("Registration Successful! 🚀");
         setFormData({ name: "", email: "", phone: "", age: "", });
         onClose();
